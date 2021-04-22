@@ -1,0 +1,63 @@
+/* 
+@value typography: "./typography.css";
+@value normal from typography; 
+*/
+
+@value forms: "./forms.css";
+@value reset-button from forms;
+
+@value colors: "./colors.css";
+@value primary-button-text, primary-button-background, primary-button-background-selected from colors;
+@value secondary-button-text, secondary-button-background, secondary-button-text-selected from colors;
+
+.button-text {
+  /* composes: normal; */
+  font-family: SofiaProBold;
+  font-size: 14px;
+  line-height: 1.07;
+  letter-spacing: 1.25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.primary-button {
+  composes: reset-button;
+  composes: button-text;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 11px 40px;
+
+  color: primary-button-text;
+  background-color: primary-button-background;
+}
+
+.primary-button:hover,
+.primary-button:active,
+.primary-button:focus {
+  background-color: primary-button-background-selected;
+  cursor: pointer;
+}
+
+.secondary-button {
+  composes: reset-button;
+  composes: button-text;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 11px 40px;
+  color: secondary-button-text;
+  background-color: secondary-button-background;
+  border: solid 2px secondary-button-text;
+}
+
+.secondary-button:hover,
+.secondary-button:active,
+.secondary-button:focus {
+  color: secondary-button-text-selected;
+  border-color: secondary-button-text-selected;
+  cursor: pointer;
+}
