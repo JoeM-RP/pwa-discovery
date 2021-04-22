@@ -3,7 +3,7 @@
   "short_name": "React App",
   "name": "Create React App Sample",
   "description": "A sample PWA for testing purposes",
-  "start_url": "/",
+  "start_url": "/pwa-discovery/",
   "icons": [
     {
       "src": "favicon.ico",
