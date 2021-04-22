@@ -8,17 +8,24 @@ export const UseCache: React.FunctionComponent = () => {
   useEffect(() => {
     // Update the document title using the browser API
     document.title = `[Cache ${isEnabled ? "Enabled" : "Disabled"}]`;
+
+    if (!isEnabled) {
+      console.debug("Cache disabled...");
+
+      dispatchEvent(new Event("clear"));
+      // window.location.reload(true);
+    }
   });
 
   const toggleCache = () => {
     setIsEnabled(!isEnabled);
-
-    // caches.delete()
-  }
+  };
 
   return (
-      <button className={styles.button} onClick={toggleCache}>Toggle Cache</button>
+    <button className={styles.button} onClick={toggleCache}>
+      Toggle Cache
+    </button>
   );
-}
+};
 
 export default UseCache;

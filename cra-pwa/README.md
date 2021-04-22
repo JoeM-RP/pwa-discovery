@@ -1,7 +1,11 @@
-# README.md
+# README
 
-Example PWA using Create React App
+Exploring PWA options
 
 ## Getting Started
 
-From this directory, run 'npm start'. For more info, see [https://create-react-app.dev/docs/making-a-progressive-web-app/](https://create-react-app.dev/docs/making-a-progressive-web-app/)
+Navigate to this directory and run `npm start`.
+
+## Testing Locally
+
+If you haven't already, install serve via `yarn install -g serve`. Navigate to this directory and run `npm run build && serve -s build`.
