@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e60cb94.chunk.css",
-    "main.js": "/static/js/main.d825d287.chunk.js",
-    "main.js.map": "/static/js/main.d825d287.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8835a088.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8835a088.js.map",
-    "static/js/2.317d694c.chunk.js": "/static/js/2.317d694c.chunk.js",
-    "static/js/2.317d694c.chunk.js.map": "/static/js/2.317d694c.chunk.js.map",
-    "static/js/3.5b933b33.chunk.js": "/static/js/3.5b933b33.chunk.js",
-    "static/js/3.5b933b33.chunk.js.map": "/static/js/3.5b933b33.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.2e60cb94.chunk.css.map": "/static/css/main.2e60cb94.chunk.css.map",
-    "static/js/2.317d694c.chunk.js.LICENSE.txt": "/static/js/2.317d694c.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/static/media/logo.103b5fa1.svg"
+    "main.css": "/pwa-discovery/static/css/main.2e60cb94.chunk.css",
+    "main.js": "/pwa-discovery/static/js/main.d825d287.chunk.js",
+    "main.js.map": "/pwa-discovery/static/js/main.d825d287.chunk.js.map",
+    "runtime-main.js": "/pwa-discovery/static/js/runtime-main.8835a088.js",
+    "runtime-main.js.map": "/pwa-discovery/static/js/runtime-main.8835a088.js.map",
+    "static/js/2.317d694c.chunk.js": "/pwa-discovery/static/js/2.317d694c.chunk.js",
+    "static/js/2.317d694c.chunk.js.map": "/pwa-discovery/static/js/2.317d694c.chunk.js.map",
+    "static/js/3.5b933b33.chunk.js": "/pwa-discovery/static/js/3.5b933b33.chunk.js",
+    "static/js/3.5b933b33.chunk.js.map": "/pwa-discovery/static/js/3.5b933b33.chunk.js.map",
+    "index.html": "/pwa-discovery/index.html",
+    "static/css/main.2e60cb94.chunk.css.map": "/pwa-discovery/static/css/main.2e60cb94.chunk.css.map",
+    "static/js/2.317d694c.chunk.js.LICENSE.txt": "/pwa-discovery/static/js/2.317d694c.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/pwa-discovery/static/media/logo.103b5fa1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8835a088.js",
