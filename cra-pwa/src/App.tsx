@@ -1,38 +1,33 @@
-import { Switch, Route } from 'react-router';
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
 
 import { AppHeader } from './components';
+import { About, Contact, Document, Home } from './pages';
 
 function App() {
   return (
     <div className="App">
+      <AppHeader />
+
       {/* about */}
       <Switch>
         <Route path="/about">
-          <AppHeader />
-          <div className="App-body">
-            About
-          </div>
+          <About />
         </Route>
-      </Switch>
 
-      {/* contact */}
-      <Switch>
+        {/* contact */}
         <Route path="/contact">
-          <AppHeader />
-          <div className="App-body">
-            Contact
-          </div>
+          <Contact />
         </Route>
-      </Switch>
 
-      {/* home */}
-      <Switch>
+        {/* document */}
+        <Route path="/document">
+          <Document />
+        </Route>
+
+        {/* home */}
         <Route path="/">
-          <AppHeader />
-          <div className="App-body">
-            Home
-          </div>
+          <Home />
         </Route>
       </Switch>
     </div>

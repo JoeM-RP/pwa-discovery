@@ -13,9 +13,6 @@
 @value divider-lines: #E1E1E1;
 @value button-background--on-color: divider-lines;
 
-@value out-of-stock: gray;
-@value button-background--on-color--selected: out-of-stock;
-
 @value border: gray;
 
 @value body-copy: #262626;

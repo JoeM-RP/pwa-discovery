@@ -1,5 +1,5 @@
 @value colors: '../styles/colors.css';
-@value accents, site-background from colors;
+@value accents, alt-background from colors;
 
 @value forms '../styles/forms.css';
 @value reset from forms;
@@ -14,7 +14,7 @@
     flex-direction: row;
     justify-content: flex-start;
   
-    background-color: site-background;
+    background-color: alt-background;
     z-index: 999;
     height: nav-height-mobile;
   }
