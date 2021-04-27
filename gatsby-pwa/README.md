@@ -103,3 +103,12 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## ⚠️ Issues
+
+When running '`pmr un build` or `gatsby develop` on a mac, I get the following error: `dyld: Symbol not found: _g_once_impl`. Your node packages are likely out of sync.
+To fix,  run `rm -rf node_modules/ package-lock.json` and run `npm i` before trying again.
+
+## Offline Support
+
+To test ServiceWorkers, run `gatsby build && gatsby serve`
