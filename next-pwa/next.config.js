@@ -7,7 +7,5 @@ module.exports = withPWA({
     runtimeCaching,
     register: true,
     scope: '/',
-    
   },
-  target: serverless,
 })
