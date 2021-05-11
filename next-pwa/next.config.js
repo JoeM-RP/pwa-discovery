@@ -9,4 +9,5 @@ module.exports = withPWA({
     scope: '/',
     
   },
+  target: serverless,
 })
