@@ -8,5 +8,4 @@ module.exports = withPWA({
     register: true,
     scope: '/',
   },
-  target: 'server',
 })

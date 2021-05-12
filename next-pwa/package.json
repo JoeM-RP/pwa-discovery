@@ -15,5 +15,9 @@
   "license": "MIT",
   "devDependencies": {
     "@netlify/plugin-nextjs": "^3.2.2"
+  },
+  "resolutions": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
