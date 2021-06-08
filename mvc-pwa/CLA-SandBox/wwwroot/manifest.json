@@ -1,0 +1,17 @@
+﻿{
+  "name": ".Net Core Progressive Web App",
+  "short_name": ".Net PWA",
+  "theme_color": "#ffffff",
+  "background_color": "#004740",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}

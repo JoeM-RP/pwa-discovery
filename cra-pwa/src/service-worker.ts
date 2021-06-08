@@ -12,7 +12,7 @@ import { clientsClaim } from 'workbox-core';
 import { ExpirationPlugin } from 'workbox-expiration';
 import { precacheAndRoute, createHandlerBoundToURL } from 'workbox-precaching';
 import { registerRoute } from 'workbox-routing';
-import { StaleWhileRevalidate } from 'workbox-strategies';
+import { CacheFirst, StaleWhileRevalidate } from 'workbox-strategies';
 
 declare const self: ServiceWorkerGlobalScope;
 
@@ -77,4 +77,21 @@ self.addEventListener('message', (event) => {
   }
 });
 
+// **************************************************
 // Any other custom service worker logic can go here.
+// **************************************************
+
+// This can be any strategy, CacheFirst used as an example.
+const strategy = new CacheFirst();
+const urls = [
+  '/pages/Technology%20Road%20Map%20To%202030.html',
+  '/Home/',
+  '/Home/Privacy',
+];
+
+self.addEventListener('install', (event) => {
+  // handleAll returns two promises, the second resolves after all items have been added to cache.
+  const done = urls.map(path => strategy.handle({event, request: new Request(path)}));
+
+  event.waitUntil(Promise.all(done));
+});

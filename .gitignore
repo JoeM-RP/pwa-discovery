@@ -23,6 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # visual studio
-/.vs
-/bin
-/obj
+**/.vs
+**/bin
+**/obj
